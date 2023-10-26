@@ -1,0 +1,25 @@
+#serviseList{
+    background-color: rgba(61, 27, 27, 0.308) ;
+    height: auto;
+}
+.service img{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+}
+.banner{
+    
+}
+.space{
+    display: flex;
+    justify-content: space-evenly;
+}
+.space h4{
+    font-family: 'Bree Serif', serif;
+}
+@media screen and (max-width:800px) {
+    .space{
+        flex-wrap: wrap;
+    }
+}

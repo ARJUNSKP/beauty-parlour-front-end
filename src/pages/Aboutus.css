@@ -1,0 +1,27 @@
+#maindiv{
+    background-image:url('https://i.postimg.cc/zvnjXvT7/pexels-delbeautybox-853427.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:80vh;
+}
+#bannerLabel h1{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 5rem;
+    -webkit-overflow-scrolling: 1px solid;
+    color:#0f0f0f9e;
+}
+.firstImg img{
+    width: 350px;
+}
+
+@media screen and (max-width:600px) {
+    #bannerLabel h1{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .firstImg img{
+        width: 300px;
+    }
+}

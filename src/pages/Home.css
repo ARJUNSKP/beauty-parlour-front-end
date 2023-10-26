@@ -1,0 +1,24 @@
+#homemain{
+    background-image:url('https://i.postimg.cc/qv1hsn2p/portrait-4597853-1920.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+#dis{
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 113, 113);
+    font-size: 25px;
+}
+@media screen and (max-width:991px){
+    #dis{
+        font-size: 20px;
+    }
+}
+.btnstyle{
+    
+}
