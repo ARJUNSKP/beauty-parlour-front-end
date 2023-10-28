@@ -87,6 +87,7 @@ function Header() {
     }
     else{
       const Responce = await sendInqueryData(inputData)
+      setShow(false)
       if(Responce.status>=200 || Responce <300){
         toast.success("Send", {
           position: "top-right",
@@ -98,7 +99,6 @@ function Header() {
           progress: undefined,
           theme: "dark",
         });
-        setShow(false)
       }
     }
   };

@@ -27,7 +27,7 @@ function Aboutus() {
       <div>
         <Container className="w-75">
           <Row>
-            <Col lg={6} md={6} sm={6}>
+            <Col lg={6} md={12} sm={12}>
               <div style={{ padding: "5rem 0" }}>
                 <h2 className="pt-5 pb-3">one-of-a-kind salon</h2>
                 <p>
@@ -37,12 +37,13 @@ function Aboutus() {
                 </p>
               </div>
             </Col>
-            <Col lg={6} md={6} sm={6}>
-              <img
-                src="https://i.postimg.cc/90WJRwZL/skincare-caucasian-woman.webp"
-                alt="..."
-                width={'500px'}
-              />
+            <Col lg={6} md={12} sm={12}>
+              <div className="firstImg"style={{display:"flex",flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+                <img
+                  src="https://i.postimg.cc/BQc9GC6t/skincare-caucasian-woman-1.png"
+                  alt="..."
+                />
+              </div>
             </Col>
           </Row>
         </Container>
